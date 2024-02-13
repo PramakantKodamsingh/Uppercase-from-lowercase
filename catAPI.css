@@ -3,14 +3,16 @@ body{
     justify-content: center;
     height: 100vh; 
     align-items: center;
-    background-color: rgb(201, 60, 147);
+    background-color:rgb(160, 190, 247);
+    
 }
 #myheader{
-    font-family:'Courier New', monospace;
+    font-family:'Courier New', monospace !important;
+    font-weight: 800;
     font-size: 3rem;
 }
 #ser{
-    margin: 20px 0 0 65px; 
+    margin: 20px 0 0 40px; 
     border-radius: .25rem;
     height: 30px;
     width: 600px;
@@ -19,27 +21,36 @@ body{
     
 }
 #gt{
-    height: 35px;
+    height: 30px;
     border-width: 3px;
     background-color: darkmagenta;
     color: white;
     border-radius: .25rem;
+    margin-right: 0px;
 }
+#scrl{
+    height: 30px;
+    width: 30px;
+    background-color:whitesmoke;
+    color: rgb(8, 98, 8);
+}
+
 #box{
-    background-color: rgb(210, 99, 168);
+    background-color:rgb(98, 238, 191);
     height: 250px; 
     width: 700px; 
-    margin-left: 55px; 
+    margin-top: 20px;
+    margin-left: 50px; 
     font-family: fantasy;
     font-size: larger;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow-wrap: break-word;
-    
+      
 } 
-#cont{ 
-    background-color:rgb(224, 166, 224);
+#cont{
+    background-color:aliceblue;
     height: 350px;
     width: 800px;
 
